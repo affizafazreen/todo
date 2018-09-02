@@ -62,3 +62,11 @@ end
 group :development, :test do
 
 end
+
+group :test do
+  # RSpec, etc
+  gem 'ci_reporter'
+  gem 'ci_reporter_rspec'
+  gem "brakeman", :require => false
+end
+
