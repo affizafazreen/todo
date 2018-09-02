@@ -9,4 +9,4 @@ require 'ci/reporter/rake/rspec'
 Listr::Application.load_tasks
 
 #task :travis => ['db:create:all', 'db:migrate', :default]
-task :spec => 'ci:setup:rspec'
+#task :spec => 'ci:setup:rspec'
