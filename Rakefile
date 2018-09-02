@@ -4,7 +4,7 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 # .. snip ..
-require 'ci/reporter/rake/rspec'
+#require 'ci/reporter/rake/rspec'
 
 Listr::Application.load_tasks
 
