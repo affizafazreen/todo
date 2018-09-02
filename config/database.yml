@@ -12,11 +12,11 @@ development:
 test:
   adapter: mysql2
   encoding: utf8
-  database: <%= ENV['RDS_DB_NAME'] %>
-  username: <%= ENV['RDS_USERNAME'] %>
-  password: <%= ENV['RDS_PASSWORD'] %>
-  host: <%= ENV['RDS_HOSTNAME'] %>
-  port: <%= ENV['RDS_PORT'] %>
+  database: eypp5629
+  username: ey_admin
+  password: password
+  host: rds-ceba1fd7df.clrmboufskpy.us-east-1.rds.amazonaws.com 
+  port: 3306 
 
 production:
   adapter: sqlite3
